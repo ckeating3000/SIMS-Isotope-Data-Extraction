@@ -15,14 +15,14 @@ USAGE:
 		Regular (non-isotopic-standard) path:
 		Inputting of files: 
 			All files inside the "inputs" folder 
-			C:\Users\Lab User\Documents\Visual Studio 2013\Projects\DataExtractionFebruary2017\Debug\inputs\
-			will be parsed automatically.  
+			C:\Users\Lab User\Documents\Visual Studio 2013\Projects\DataExtractionApril2017\Debug\inputs\
+			will be parsed automatically.
 			NOTE: do not put anything besides the .asc versions of the Cameca output files in this folder
 		
 		Outputting of files:
 			All files have an automatic output beginning with their corresponding input name.  All output 
 			files are automatically saved in the "outputs" folder at
-			C:\Users\Lab User\Documents\Visual Studio 2013\Projects\DataExtractionFebruary2017\Debug\outputs\
+			C:\Users\Lab User\Documents\Visual Studio 2013\Projects\DataExtractionApril2017\Debug\outputs\
 
 		Isotopic Standard path:
 			Same, except you must place all input files in the folder called "inputs_standards"
@@ -151,16 +151,3 @@ CALCULATIONS:
 			Ct = Rstd true / mean Rstd_measured
 			
 			
-
-
-
-
-
-
-
-
-
-
-
-
-
