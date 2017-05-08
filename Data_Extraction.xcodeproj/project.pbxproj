@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B6EA6511EC0C78000E5A85F /* ReadMe.Md in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EA6501EC0C78000E5A85F /* ReadMe.Md */; };
 		3BA536701DABE43C00BE015C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5366F1DABE43C00BE015C /* main.cpp */; };
+		3BA536791DABF16C00BE015C /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA536781DABF16C00BE015C /* stdafx.cpp */; };
+		3BA5367C1DABF1AD00BE015C /* user_parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5367B1DABF1AD00BE015C /* user_parameters.cpp */; };
+		3BA5367F1DABF25A00BE015C /* data_structs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5367E1DABF25A00BE015C /* data_structs.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3B6EA64F1EC0C4AD00E5A85F /* dirent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirent.h; sourceTree = "<group>"; };
+		3B6EA6501EC0C78000E5A85F /* ReadMe.Md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.Md; path = "../../Documents/Colin/Work/Fike Lab/data extraction code/data_extraction_april_2017_backup/ReadMe.Md"; sourceTree = "<group>"; };
 		3BA5366C1DABE43C00BE015C /* Data_Extraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Data_Extraction; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA5366F1DABE43C00BE015C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3BA536761DABF0C400BE015C /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		3BA536771DABF11C00BE015C /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		3BA536781DABF16C00BE015C /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
+		3BA5367B1DABF1AD00BE015C /* user_parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = user_parameters.cpp; sourceTree = "<group>"; };
+		3BA5367D1DABF24300BE015C /* data_structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_structs.h; sourceTree = "<group>"; };
+		3BA5367E1DABF25A00BE015C /* data_structs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_structs.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 		3BA536631DABE43B00BE015C = {
 			isa = PBXGroup;
 			children = (
+				3B6EA6501EC0C78000E5A85F /* ReadMe.Md */,
 				3BA5366E1DABE43C00BE015C /* Data_Extraction */,
 				3BA5366D1DABE43C00BE015C /* Products */,
 			);
@@ -58,6 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				3BA5366F1DABE43C00BE015C /* main.cpp */,
+				3BA536761DABF0C400BE015C /* stdafx.h */,
+				3BA536771DABF11C00BE015C /* main.h */,
+				3BA536781DABF16C00BE015C /* stdafx.cpp */,
+				3BA5367B1DABF1AD00BE015C /* user_parameters.cpp */,
+				3BA5367D1DABF24300BE015C /* data_structs.h */,
+				3BA5367E1DABF25A00BE015C /* data_structs.cpp */,
+				3B6EA64F1EC0C4AD00E5A85F /* dirent.h */,
 			);
 			path = Data_Extraction;
 			sourceTree = "<group>";
@@ -121,6 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA536701DABE43C00BE015C /* main.cpp in Sources */,
+				3BA5367C1DABF1AD00BE015C /* user_parameters.cpp in Sources */,
+				3B6EA6511EC0C78000E5A85F /* ReadMe.Md in Sources */,
+				3BA5367F1DABF25A00BE015C /* data_structs.cpp in Sources */,
+				3BA536791DABF16C00BE015C /* stdafx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +273,7 @@
 				3BA536751DABE43C00BE015C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
