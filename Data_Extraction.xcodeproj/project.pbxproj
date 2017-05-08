@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		3B6EA64F1EC0C4AD00E5A85F /* dirent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dirent.h; sourceTree = "<group>"; };
-		3B6EA6521EC0C9F600E5A85F /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = "../../Documents/Colin/Work/Fike Lab/data extraction code/data_extraction_april_2017_backup/ReadMe.md"; sourceTree = "<group>"; };
+		3B6EA6521EC0C9F600E5A85F /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = "../../../Documents/Colin/Work/Fike Lab/data extraction code/data_extraction_april_2017_backup/ReadMe.md"; sourceTree = "<group>"; };
 		3BA5366C1DABE43C00BE015C /* Data_Extraction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Data_Extraction; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA5366F1DABE43C00BE015C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3BA536761DABF0C400BE015C /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
@@ -53,7 +53,6 @@
 		3BA536631DABE43B00BE015C = {
 			isa = PBXGroup;
 			children = (
-				3B6EA6521EC0C9F600E5A85F /* ReadMe.md */,
 				3BA5366E1DABE43C00BE015C /* Data_Extraction */,
 				3BA5366D1DABE43C00BE015C /* Products */,
 			);
@@ -70,6 +69,7 @@
 		3BA5366E1DABE43C00BE015C /* Data_Extraction */ = {
 			isa = PBXGroup;
 			children = (
+				3B6EA6521EC0C9F600E5A85F /* ReadMe.md */,
 				3BA5366F1DABE43C00BE015C /* main.cpp */,
 				3BA536761DABF0C400BE015C /* stdafx.h */,
 				3BA536771DABF11C00BE015C /* main.h */,
